@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Primer_proyecto.Properties
+namespace Primer_ventana.Properties
 {
 
 
