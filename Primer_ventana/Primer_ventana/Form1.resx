@@ -122,10 +122,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="button1Suma.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 111</value>
+    <value>726, 111</value>
   </data>
   <data name="button1Suma.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 57</value>
+    <value>240, 57</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1Suma.TabIndex" type="System.Int32, mscorlib">
@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1Suma.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="textBox1Titulo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Juice ITC, 36pt, style=Underline</value>
@@ -175,7 +175,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1Titulo.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="textBoxNumero1.Location" type="System.Drawing.Point, System.Drawing">
     <value>264, 133</value>
@@ -196,7 +196,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxNumero1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="textBoxNumero2.Location" type="System.Drawing.Point, System.Drawing">
     <value>264, 170</value>
@@ -217,7 +217,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxNumero2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="label1Resultado.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -247,7 +247,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1Resultado.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -277,7 +277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -310,7 +310,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="button1Resta.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
@@ -319,10 +319,10 @@
     <value>NoControl</value>
   </data>
   <data name="button1Resta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 111</value>
+    <value>1020, 110</value>
   </data>
   <data name="button1Resta.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 57</value>
+    <value>178, 57</value>
   </data>
   <data name="button1Resta.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -340,7 +340,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1Resta.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="button2Multiplicacion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
@@ -349,7 +349,7 @@
     <value>NoControl</value>
   </data>
   <data name="button2Multiplicacion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 195</value>
+    <value>726, 174</value>
   </data>
   <data name="button2Multiplicacion.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 57</value>
@@ -370,7 +370,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2Multiplicacion.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="button3Division.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
@@ -379,10 +379,10 @@
     <value>NoControl</value>
   </data>
   <data name="button3Division.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 195</value>
+    <value>1020, 174</value>
   </data>
   <data name="button3Division.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 57</value>
+    <value>178, 57</value>
   </data>
   <data name="button3Division.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -400,7 +400,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button3Division.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="button1Borrar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt</value>
@@ -409,16 +409,16 @@
     <value>NoControl</value>
   </data>
   <data name="button1Borrar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 278</value>
+    <value>543, 304</value>
   </data>
   <data name="button1Borrar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 57</value>
+    <value>155, 61</value>
   </data>
   <data name="button1Borrar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="button1Borrar.Text" xml:space="preserve">
-    <value>BORRAR</value>
+    <value>C</value>
   </data>
   <data name="&gt;&gt;button1Borrar.Name" xml:space="preserve">
     <value>button1Borrar</value>
@@ -430,7 +430,118 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1Borrar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="button1_POTENCIA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="button1_POTENCIA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 237</value>
+  </data>
+  <data name="button1_POTENCIA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 61</value>
+  </data>
+  <data name="button1_POTENCIA.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="button1_POTENCIA.Text" xml:space="preserve">
+    <value>POTENCIA</value>
+  </data>
+  <data name="&gt;&gt;button1_POTENCIA.Name" xml:space="preserve">
+    <value>button1_POTENCIA</value>
+  </data>
+  <data name="&gt;&gt;button1_POTENCIA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1_POTENCIA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1_POTENCIA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button1_RAIZ_CUADRADA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="button1_RAIZ_CUADRADA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 304</value>
+  </data>
+  <data name="button1_RAIZ_CUADRADA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 61</value>
+  </data>
+  <data name="button1_RAIZ_CUADRADA.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button1_RAIZ_CUADRADA.Text" xml:space="preserve">
+    <value>RAIZ CUADRADA</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUADRADA.Name" xml:space="preserve">
+    <value>button1_RAIZ_CUADRADA</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUADRADA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUADRADA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUADRADA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button2_FACTORIAL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="button2_FACTORIAL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2_FACTORIAL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1020, 237</value>
+  </data>
+  <data name="button2_FACTORIAL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 61</value>
+  </data>
+  <data name="button2_FACTORIAL.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="button2_FACTORIAL.Text" xml:space="preserve">
+    <value>N!</value>
+  </data>
+  <data name="&gt;&gt;button2_FACTORIAL.Name" xml:space="preserve">
+    <value>button2_FACTORIAL</value>
+  </data>
+  <data name="&gt;&gt;button2_FACTORIAL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2_FACTORIAL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2_FACTORIAL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1_RAIZ_CUBICA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="button1_RAIZ_CUBICA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1020, 304</value>
+  </data>
+  <data name="button1_RAIZ_CUBICA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 61</value>
+  </data>
+  <data name="button1_RAIZ_CUBICA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="button1_RAIZ_CUBICA.Text" xml:space="preserve">
+    <value>RAIZ CUBICA</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUBICA.Name" xml:space="preserve">
+    <value>button1_RAIZ_CUBICA</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUBICA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUBICA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1_RAIZ_CUBICA.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

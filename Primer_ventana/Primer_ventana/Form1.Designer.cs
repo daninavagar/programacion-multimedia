@@ -43,6 +43,10 @@ namespace Primer_ventana
             this.button2Multiplicacion = new System.Windows.Forms.Button();
             this.button3Division = new System.Windows.Forms.Button();
             this.button1Borrar = new System.Windows.Forms.Button();
+            this.button1_POTENCIA = new System.Windows.Forms.Button();
+            this.button1_RAIZ_CUADRADA = new System.Windows.Forms.Button();
+            this.button2_FACTORIAL = new System.Windows.Forms.Button();
+            this.button1_RAIZ_CUBICA = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1Suma
@@ -118,10 +122,42 @@ namespace Primer_ventana
             this.button1Borrar.UseVisualStyleBackColor = false;
             this.button1Borrar.Click += new System.EventHandler(this.button1Borrar_Click);
             // 
+            // button1_POTENCIA
+            // 
+            resources.ApplyResources(this.button1_POTENCIA, "button1_POTENCIA");
+            this.button1_POTENCIA.Name = "button1_POTENCIA";
+            this.button1_POTENCIA.UseVisualStyleBackColor = true;
+            this.button1_POTENCIA.Click += new System.EventHandler(this.button1_POTENCIA_Click);
+            // 
+            // button1_RAIZ_CUADRADA
+            // 
+            resources.ApplyResources(this.button1_RAIZ_CUADRADA, "button1_RAIZ_CUADRADA");
+            this.button1_RAIZ_CUADRADA.Name = "button1_RAIZ_CUADRADA";
+            this.button1_RAIZ_CUADRADA.UseVisualStyleBackColor = true;
+            this.button1_RAIZ_CUADRADA.Click += new System.EventHandler(this.button1_RAIZ_CUADRADA_Click);
+            // 
+            // button2_FACTORIAL
+            // 
+            resources.ApplyResources(this.button2_FACTORIAL, "button2_FACTORIAL");
+            this.button2_FACTORIAL.Name = "button2_FACTORIAL";
+            this.button2_FACTORIAL.UseVisualStyleBackColor = true;
+            this.button2_FACTORIAL.Click += new System.EventHandler(this.button2_FACTORIAL_Click);
+            // 
+            // button1_RAIZ_CUBICA
+            // 
+            resources.ApplyResources(this.button1_RAIZ_CUBICA, "button1_RAIZ_CUBICA");
+            this.button1_RAIZ_CUBICA.Name = "button1_RAIZ_CUBICA";
+            this.button1_RAIZ_CUBICA.UseVisualStyleBackColor = true;
+            this.button1_RAIZ_CUBICA.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.button1_RAIZ_CUBICA);
+            this.Controls.Add(this.button2_FACTORIAL);
+            this.Controls.Add(this.button1_RAIZ_CUADRADA);
+            this.Controls.Add(this.button1_POTENCIA);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label1Resultado);
@@ -156,6 +192,10 @@ namespace Primer_ventana
         private Button button2Multiplicacion;
         private Button button3Division;
         private Button button1Borrar;
+        private Button button1_POTENCIA;
+        private Button button1_RAIZ_CUADRADA;
+        private Button button2_FACTORIAL;
+        private Button button1_RAIZ_CUBICA;
     }
 }
 
