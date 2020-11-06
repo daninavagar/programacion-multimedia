@@ -36,7 +36,11 @@ namespace Primer_ventana
         private void button1Borrar_Click(object sender, EventArgs e)
         {
             label1Resultado.Text = "El resultado es: ";
-            this.textBoxNumero2.Enabled = true;
+            if (!this.textBoxNumero2.Enabled)
+            {
+                this.textBoxNumero2.Enabled = true;
+            }
+            textBoxNumero1.Text = textBoxNumero2.Text = null;
         }
 
         private void button1Multiplicacion_Click(object sender, EventArgs e)
