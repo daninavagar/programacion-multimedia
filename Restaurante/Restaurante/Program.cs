@@ -56,7 +56,7 @@ namespace Restaurante
                 }
 
             } while (!exit);
-            Console.ReadKey(); // 
+            Environment.Exit(0); 
         }
     }
 }
