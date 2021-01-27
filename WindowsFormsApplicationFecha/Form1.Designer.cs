@@ -39,7 +39,6 @@
             this.labelFecha.Name = "labelFecha";
             this.labelFecha.Size = new System.Drawing.Size(165, 38);
             this.labelFecha.TabIndex = 0;
-            this.labelFecha.Text = "sdfsfsdf";
             this.labelFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Boton1

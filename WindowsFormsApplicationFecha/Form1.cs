@@ -22,7 +22,7 @@ namespace WindowsFormsApplicationFecha
         {
             Fecha clase = new Fecha();
             int dia = clase.CambiarDia();
-            labelFecha.Text += dia;
+            labelFecha.Text += "El numero del dia es: " + dia;
         }
     }
 }
