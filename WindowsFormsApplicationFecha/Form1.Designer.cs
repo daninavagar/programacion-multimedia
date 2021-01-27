@@ -28,13 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.labelFecha = new System.Windows.Forms.Label();
+            this.Boton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // labelFecha
+            // 
+            this.labelFecha.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelFecha.Location = new System.Drawing.Point(102, 58);
+            this.labelFecha.Name = "labelFecha";
+            this.labelFecha.Size = new System.Drawing.Size(165, 38);
+            this.labelFecha.TabIndex = 0;
+            this.labelFecha.Text = "sdfsfsdf";
+            this.labelFecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Boton1
+            // 
+            this.Boton1.Location = new System.Drawing.Point(490, 73);
+            this.Boton1.Name = "Boton1";
+            this.Boton1.Size = new System.Drawing.Size(123, 23);
+            this.Boton1.TabIndex = 1;
+            this.Boton1.Text = "button1";
+            this.Boton1.UseVisualStyleBackColor = true;
+            this.Boton1.Click += new System.EventHandler(this.Boton1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 261);
+            this.ClientSize = new System.Drawing.Size(799, 385);
+            this.Controls.Add(this.Boton1);
+            this.Controls.Add(this.labelFecha);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -42,6 +66,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Label labelFecha;
+        private System.Windows.Forms.Button Boton1;
     }
 }
 

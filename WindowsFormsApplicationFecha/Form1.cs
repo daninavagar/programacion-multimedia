@@ -15,6 +15,14 @@ namespace WindowsFormsApplicationFecha
         public Form1()
         {
             InitializeComponent();
+
+        }
+
+        private void Boton1_Click(object sender, EventArgs e)
+        {
+            Fecha clase = new Fecha();
+            int dia = clase.CambiarDia();
+            labelFecha.Text += dia;
         }
     }
 }
