@@ -8,7 +8,7 @@ namespace WindowsFormsApplicationFecha
 {
     class Fecha
     {
-        private int dia, mes, anio;
+        public int dia, mes, anio;
 
         public Fecha()
         {
@@ -31,26 +31,19 @@ namespace WindowsFormsApplicationFecha
             this.anio = anio;
         }
 
-        public void escribir(string hora)
+        public int CambiarDia(int dia)
         {
-            hora = Convert.ToString(dia, mes);
-
-        }
-
-        public int CambiarDia()
-        {
-            this.dia = 15;
             return dia;
         }
 
-        public void CambiarMes()
+        public int CambiarMes(int mes)
         {
-            this.mes = 1;
+            return mes;
         }
 
-        public void CambiarAño()
+        public int CambiarAño(int año)
         {
-            this.anio = 2000;
+            return año;
         }
 
         public bool EsBisiesto()
@@ -65,23 +58,24 @@ namespace WindowsFormsApplicationFecha
             }
         }
 
-        public void DiaSiguiente()
+        public Fecha DiaSiguiente()
         {
-            this.dia++;
-            if (this.dia == 31 && (this.mes == 1 || this.mes == 3 || this.mes == 5 || this.mes == 7 || this.mes == 8 || this.mes == 10))
+            dia++;
+            if (dia == 32 && (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10))
             {
-                this.dia = 1;
-                this.mes++;
-            } else if (this.dia == 30 && (this.mes == 2 || this.mes == 4 || this.mes == 6 || this.mes == 9 || this.mes == 11))
+                dia = 1;
+                mes++;
+            } else if (dia == 31 && (mes == 2 || mes == 4 || mes == 6 || mes == 9 || mes == 11))
             {
-                this.dia = 1;
-                this.mes++;
-            } else if (this.dia == 31 && this.mes == 12)
+                dia = 1;
+                mes++;
+            } else if (dia == 31 && mes == 12)
             {
-                this.dia = 1;
-                this.mes = 1;
-                this.anio++;
+                dia = 1;
+                mes = 1;
+                anio++;
             }
+            return this;
         }
     }
 }
