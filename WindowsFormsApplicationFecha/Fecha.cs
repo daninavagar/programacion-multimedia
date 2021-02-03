@@ -69,7 +69,7 @@ namespace WindowsFormsApplicationFecha
             {
                 dia = 1;
                 mes++;
-            } else if (dia == 31 && mes == 12)
+            } else if (dia == 32 && mes == 12)
             {
                 dia = 1;
                 mes = 1;
