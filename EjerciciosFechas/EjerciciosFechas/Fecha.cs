@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplicationFecha
+namespace EjerciciosFechas
 {
     class Fecha
     {
-        public int dia, mes, anio;
+        private int dia, mes, anio;
 
         public Fecha()
         {
             this.dia = 1;
-            this.mes = 1;
-            this.anio = 1900;
+            this.mes = 5;
+            this.anio = 2005;
         }
 
         public Fecha(int dia)
@@ -31,31 +31,43 @@ namespace WindowsFormsApplicationFecha
             this.anio = anio;
         }
 
-        public int CambiarDia(int dia)
+        public string Escribir(string formato)
+        {
+            string forma;
+            if (formato == "corto")
+            {
+                forma = dia.ToString() + "/" + mes.ToString() + "/" + anio.ToString();
+            }
+            else
+            {
+                forma = "Dia " + dia.ToString() + " del mes " + mes.ToString() + " del año " + anio.ToString();
+            }
+            return forma;
+        }
+
+        public int CambiarDia()
         {
             return dia;
         }
 
-        public int CambiarMes(int mes)
+        public int CambiarMes()
         {
             return mes;
         }
-
-        public int CambiarAño(int año)
+        public int CambiarAño()
         {
-            return año;
+            return anio;
         }
 
         public bool EsBisiesto()
         {
-
-            if (this.anio % 4 == 0 && this.anio % 400 != 0)
+            if (anio % 4 == 0 && anio % 400 != 0)
             {
                 return true;
-            } else
-            {
-                return false;
             }
+            else
+                return false;
+            
         }
 
         public Fecha DiaSiguiente()
@@ -65,17 +77,22 @@ namespace WindowsFormsApplicationFecha
             {
                 dia = 1;
                 mes++;
-            } else if (dia == 31 && (mes == 2 || mes == 4 || mes == 6 || mes == 9 || mes == 11))
+            }
+            else if (dia == 31 && (mes == 2 || mes == 4 || mes == 6 || mes == 9 || mes == 11))
             {
                 dia = 1;
                 mes++;
-            } else if (dia == 32 && mes == 12)
+            }
+            else if (dia == 32 && mes == 12)
             {
                 dia = 1;
                 mes = 1;
                 anio++;
             }
+
             return this;
         }
+
+
     }
 }
