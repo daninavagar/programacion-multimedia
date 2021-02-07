@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EjercicioPersona.Properties
+namespace EjericiosPersonas.Properties
 {
 
 

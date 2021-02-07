@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("EjercicioPersona")]
+[assembly: AssemblyTitle("EjericiosPersonas")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EjercicioPersona")]
+[assembly: AssemblyProduct("EjericiosPersonas")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("4d068e7d-98c6-43eb-8f15-21bc32bd532c")]
+[assembly: Guid("9a59ce56-cfcb-4d45-907a-84acc9b1c7fa")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
