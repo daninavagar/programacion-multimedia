@@ -30,7 +30,24 @@ namespace EjericiosPersonas
             this.DNI = DNI;
             this.fechaNaci = new Fecha();
         }
+        // BUENOS CONSTRUCTORES
+        public Persona(string DNI,string nombre, int diaN, int mesN, int anioN)
+        {
+            this.nombre = nombre;
+            this.DNI = DNI;
+            this.fechaNaci = new Fecha(diaN, mesN, anioN);
+            this.fechaAdmi = new Fecha();
+            
+        }
 
+        public Persona(string DNI, int diaA, string nombre, int mesA, int anioA)
+        {
+            this.nombre = nombre;
+            this.DNI = DNI;
+            this.fechaNaci = new Fecha();
+            this.fechaAdmi = new Fecha(diaA, mesA, anioA);
+        }
+        // FIN
         public Persona(string DNI, Fecha fechaAdmi, string nombre)
         {
             this.DNI = DNI;
@@ -84,5 +101,6 @@ namespace EjericiosPersonas
             fechaNaci.CambiarAño();
 
         }
+
     }
 }
