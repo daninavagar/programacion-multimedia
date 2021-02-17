@@ -282,7 +282,9 @@ namespace EjericiosPersonas
                 
             }
 
-            if ( (fechaNaci.CambiarDia() < fechaNaci2.CambiarDia()) && (fechaNaci.CambiarDia() < fechaNaci3.CambiarDia())) {
+            if ( ( (fechaNaci.CambiarDia() < fechaNaci2.CambiarDia()) && (fechaNaci.CambiarDia() < fechaNaci3.CambiarDia())  ) && 
+                 ( (fechaNaci.CambiarMes() < fechaNaci2.CambiarMes() ) && (fechaNaci.CambiarMes() < fechaNaci3.CambiarMes()) ) &&
+                 ( (fechaNaci.CambiarAño() < fechaNaci2.CambiarAño()) && (fechaNaci.CambiarAño() < fechaNaci3.CambiarAño())) ) {
 
                 labelJoven.Text = "La persona mas joven es " + persona3.EscribirFormato(textBoxFormato.Text);
             } else if ( (fechaNaci2.CambiarDia() < fechaNaci.CambiarDia()) && (fechaNaci2.CambiarDia() < fechaNaci3.CambiarDia()))
