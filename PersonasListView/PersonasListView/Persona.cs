@@ -45,6 +45,7 @@ namespace PersonasListView
         }
 
         // CUARTO CONSTRUCTOR
+
          public Persona(string Nombre, string Direccion, string DNI, int Telefono,
                         int DiaN, int MesN, int AnioN, int DiaA, int MesA, int AnioA)
         {
@@ -55,7 +56,6 @@ namespace PersonasListView
             fechaNaci = new Fecha(DiaN, MesN, AnioN);
             fechaAdmi = new Fecha(DiaA, MesA, AnioA);
         }
-
 
         // FUNCIONES
         public string EscribirFormato(string formato)
@@ -74,24 +74,55 @@ namespace PersonasListView
             return forma;
         }
 
-        public string CambiarDNI()
+
+
+        public string Nombre
         {
-            return dni;
+            get { return nombre; }
         }
 
-        public string CambiarNombre()
+
+        public void setNombre(string Nombre)
         {
-            return nombre;
+            nombre = Nombre;
         }
 
-        public void CambiarNacimiento()
+        public string Direccion
         {
-
-            fechaNaci.CambiarDia();
-            fechaNaci.CambiarMes();
-            fechaNaci.CambiarAnio();
-
+            get { return direccion; }
         }
+
+        public int Telefono
+        {
+            get { return telefono; }
+        }
+
+        public string DNI
+        {
+            get { return dni; }
+        }
+        
+
+        public void setDNI(string DNI)
+        {
+            dni = DNI;
+        }       
+        public Fecha CambiarNacimiento()
+        {
+            return fechaNaci;
+        }
+
+        public void setFechaNaci(Fecha Naci)
+        {
+            fechaNaci = Naci;
+        }
+
+        public Fecha CambiarAdmision()
+        {            
+            return fechaAdmi;
+        }
+
+
 
 
     }

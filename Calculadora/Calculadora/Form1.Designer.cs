@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Primer_ventana
+namespace Calculadora
 {
     partial class Form1
     {

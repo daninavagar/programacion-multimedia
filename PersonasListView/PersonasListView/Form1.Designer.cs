@@ -69,88 +69,87 @@
             this.buttonObtenerAntigua = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.listViewJoven = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Nombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DNI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Fecha_Nacimiento = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label15 = new System.Windows.Forms.Label();
             this.listViewAntigua = new System.Windows.Forms.ListView();
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnaNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnaDNI = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnNaci = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnAdmi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label16 = new System.Windows.Forms.Label();
+            this.labelPersona = new System.Windows.Forms.Label();
+            this.buttonActualizar = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBoxNombre
             // 
-            this.textBoxNombre.Location = new System.Drawing.Point(12, 47);
+            this.textBoxNombre.Location = new System.Drawing.Point(15, 86);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(100, 20);
             this.textBoxNombre.TabIndex = 0;
             // 
             // textBoxDireccion
             // 
-            this.textBoxDireccion.Location = new System.Drawing.Point(12, 101);
+            this.textBoxDireccion.Location = new System.Drawing.Point(15, 140);
             this.textBoxDireccion.Name = "textBoxDireccion";
             this.textBoxDireccion.Size = new System.Drawing.Size(100, 20);
             this.textBoxDireccion.TabIndex = 1;
             // 
             // textBoxDNI
             // 
-            this.textBoxDNI.Location = new System.Drawing.Point(12, 155);
+            this.textBoxDNI.Location = new System.Drawing.Point(15, 194);
             this.textBoxDNI.Name = "textBoxDNI";
             this.textBoxDNI.Size = new System.Drawing.Size(100, 20);
             this.textBoxDNI.TabIndex = 2;
             // 
             // textBoxTelefono
             // 
-            this.textBoxTelefono.Location = new System.Drawing.Point(12, 209);
+            this.textBoxTelefono.Location = new System.Drawing.Point(15, 248);
             this.textBoxTelefono.Name = "textBoxTelefono";
             this.textBoxTelefono.Size = new System.Drawing.Size(100, 20);
             this.textBoxTelefono.TabIndex = 3;
             // 
             // textBoxDiaN
             // 
-            this.textBoxDiaN.Location = new System.Drawing.Point(12, 263);
+            this.textBoxDiaN.Location = new System.Drawing.Point(15, 302);
             this.textBoxDiaN.Name = "textBoxDiaN";
             this.textBoxDiaN.Size = new System.Drawing.Size(100, 20);
             this.textBoxDiaN.TabIndex = 4;
             // 
             // textBoxMesN
             // 
-            this.textBoxMesN.Location = new System.Drawing.Point(12, 317);
+            this.textBoxMesN.Location = new System.Drawing.Point(15, 356);
             this.textBoxMesN.Name = "textBoxMesN";
             this.textBoxMesN.Size = new System.Drawing.Size(100, 20);
             this.textBoxMesN.TabIndex = 5;
             // 
             // textBoxAnioN
             // 
-            this.textBoxAnioN.Location = new System.Drawing.Point(12, 371);
+            this.textBoxAnioN.Location = new System.Drawing.Point(15, 410);
             this.textBoxAnioN.Name = "textBoxAnioN";
             this.textBoxAnioN.Size = new System.Drawing.Size(100, 20);
             this.textBoxAnioN.TabIndex = 6;
             // 
             // textBoxAnioA
             // 
-            this.textBoxAnioA.Location = new System.Drawing.Point(13, 533);
+            this.textBoxAnioA.Location = new System.Drawing.Point(16, 572);
             this.textBoxAnioA.Name = "textBoxAnioA";
             this.textBoxAnioA.Size = new System.Drawing.Size(100, 20);
             this.textBoxAnioA.TabIndex = 9;
             // 
             // textBoxMesA
             // 
-            this.textBoxMesA.Location = new System.Drawing.Point(12, 479);
+            this.textBoxMesA.Location = new System.Drawing.Point(15, 518);
             this.textBoxMesA.Name = "textBoxMesA";
             this.textBoxMesA.Size = new System.Drawing.Size(100, 20);
             this.textBoxMesA.TabIndex = 8;
             // 
             // textBoxDiaA
             // 
-            this.textBoxDiaA.Location = new System.Drawing.Point(12, 425);
+            this.textBoxDiaA.Location = new System.Drawing.Point(15, 464);
             this.textBoxDiaA.Name = "textBoxDiaA";
             this.textBoxDiaA.Size = new System.Drawing.Size(100, 20);
             this.textBoxDiaA.TabIndex = 7;
@@ -158,7 +157,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 31);
+            this.label1.Location = new System.Drawing.Point(12, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 10;
@@ -167,7 +166,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 85);
+            this.label2.Location = new System.Drawing.Point(12, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 11;
@@ -176,7 +175,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 139);
+            this.label3.Location = new System.Drawing.Point(12, 178);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 12;
@@ -185,7 +184,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 193);
+            this.label4.Location = new System.Drawing.Point(12, 232);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 13);
             this.label4.TabIndex = 13;
@@ -194,7 +193,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 247);
+            this.label5.Location = new System.Drawing.Point(12, 286);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(134, 13);
             this.label5.TabIndex = 14;
@@ -203,7 +202,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 301);
+            this.label6.Location = new System.Drawing.Point(12, 340);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(30, 13);
             this.label6.TabIndex = 15;
@@ -212,7 +211,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 355);
+            this.label7.Location = new System.Drawing.Point(12, 394);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(29, 13);
             this.label7.TabIndex = 16;
@@ -221,7 +220,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(9, 409);
+            this.label8.Location = new System.Drawing.Point(12, 448);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(121, 13);
             this.label8.TabIndex = 17;
@@ -230,7 +229,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 517);
+            this.label9.Location = new System.Drawing.Point(13, 556);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 13);
             this.label9.TabIndex = 19;
@@ -239,7 +238,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(9, 463);
+            this.label10.Location = new System.Drawing.Point(12, 502);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(30, 13);
             this.label10.TabIndex = 18;
@@ -257,21 +256,21 @@
             // 
             // textBoxCambiarNombre
             // 
-            this.textBoxCambiarNombre.Location = new System.Drawing.Point(166, 47);
+            this.textBoxCambiarNombre.Location = new System.Drawing.Point(169, 86);
             this.textBoxCambiarNombre.Name = "textBoxCambiarNombre";
             this.textBoxCambiarNombre.Size = new System.Drawing.Size(100, 20);
             this.textBoxCambiarNombre.TabIndex = 21;
             // 
             // textBoxCambiarDNI
             // 
-            this.textBoxCambiarDNI.Location = new System.Drawing.Point(166, 101);
+            this.textBoxCambiarDNI.Location = new System.Drawing.Point(169, 140);
             this.textBoxCambiarDNI.Name = "textBoxCambiarDNI";
             this.textBoxCambiarDNI.Size = new System.Drawing.Size(100, 20);
             this.textBoxCambiarDNI.TabIndex = 22;
             // 
             // buttonCambiarDatos
             // 
-            this.buttonCambiarDatos.Location = new System.Drawing.Point(165, 139);
+            this.buttonCambiarDatos.Location = new System.Drawing.Point(168, 178);
             this.buttonCambiarDatos.Name = "buttonCambiarDatos";
             this.buttonCambiarDatos.Size = new System.Drawing.Size(101, 40);
             this.buttonCambiarDatos.TabIndex = 23;
@@ -282,7 +281,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(163, 85);
+            this.label11.Location = new System.Drawing.Point(166, 124);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 13);
             this.label11.TabIndex = 25;
@@ -291,7 +290,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(163, 31);
+            this.label12.Location = new System.Drawing.Point(166, 70);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(91, 13);
             this.label12.TabIndex = 24;
@@ -380,30 +379,33 @@
             // 
             // buttonSumaDias
             // 
-            this.buttonSumaDias.Location = new System.Drawing.Point(165, 193);
+            this.buttonSumaDias.Location = new System.Drawing.Point(168, 232);
             this.buttonSumaDias.Name = "buttonSumaDias";
             this.buttonSumaDias.Size = new System.Drawing.Size(101, 40);
             this.buttonSumaDias.TabIndex = 30;
             this.buttonSumaDias.Text = "SUMAR 2 DIAS";
             this.buttonSumaDias.UseVisualStyleBackColor = true;
+            this.buttonSumaDias.Click += new System.EventHandler(this.buttonSumaDias_Click);
             // 
             // buttonObtenerJoven
             // 
-            this.buttonObtenerJoven.Location = new System.Drawing.Point(165, 277);
+            this.buttonObtenerJoven.Location = new System.Drawing.Point(168, 316);
             this.buttonObtenerJoven.Name = "buttonObtenerJoven";
             this.buttonObtenerJoven.Size = new System.Drawing.Size(101, 40);
             this.buttonObtenerJoven.TabIndex = 31;
             this.buttonObtenerJoven.Text = "MAS JOVEN";
             this.buttonObtenerJoven.UseVisualStyleBackColor = true;
+            this.buttonObtenerJoven.Click += new System.EventHandler(this.buttonObtenerJoven_Click);
             // 
             // buttonObtenerAntigua
             // 
-            this.buttonObtenerAntigua.Location = new System.Drawing.Point(165, 443);
+            this.buttonObtenerAntigua.Location = new System.Drawing.Point(168, 482);
             this.buttonObtenerAntigua.Name = "buttonObtenerAntigua";
             this.buttonObtenerAntigua.Size = new System.Drawing.Size(101, 40);
             this.buttonObtenerAntigua.TabIndex = 32;
             this.buttonObtenerAntigua.Text = "MAS ANTIGUA";
             this.buttonObtenerAntigua.UseVisualStyleBackColor = true;
+            this.buttonObtenerAntigua.Click += new System.EventHandler(this.buttonObtenerAntigua_Click);
             // 
             // label14
             // 
@@ -417,12 +419,9 @@
             // listViewJoven
             // 
             this.listViewJoven.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6});
+            this.Nombre,
+            this.DNI,
+            this.Fecha_Nacimiento});
             this.listViewJoven.Location = new System.Drawing.Point(289, 277);
             this.listViewJoven.Name = "listViewJoven";
             this.listViewJoven.Size = new System.Drawing.Size(701, 143);
@@ -430,40 +429,22 @@
             this.listViewJoven.UseCompatibleStateImageBehavior = false;
             this.listViewJoven.View = System.Windows.Forms.View.Details;
             // 
-            // columnHeader1
+            // Nombre
             // 
-            this.columnHeader1.Text = "Nombre";
-            this.columnHeader1.Width = 147;
+            this.Nombre.Text = "Nombre";
+            this.Nombre.Width = 147;
             // 
-            // columnHeader2
+            // DNI
             // 
-            this.columnHeader2.Text = "Dirección";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 177;
+            this.DNI.Text = "DNI";
+            this.DNI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DNI.Width = 93;
             // 
-            // columnHeader3
+            // Fecha_Nacimiento
             // 
-            this.columnHeader3.Text = "DNI";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 93;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Teléfono";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 82;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Nacimiento";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 95;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Admisión";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 102;
+            this.Fecha_Nacimiento.Text = "Fecha Nacimiento";
+            this.Fecha_Nacimiento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Fecha_Nacimiento.Width = 182;
             // 
             // label15
             // 
@@ -477,12 +458,10 @@
             // listViewAntigua
             // 
             this.listViewAntigua.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9,
-            this.columnHeader10,
-            this.columnHeader11,
-            this.columnHeader12});
+            this.ColumnaNombre,
+            this.columnaDNI,
+            this.columnNaci,
+            this.columnAdmi});
             this.listViewAntigua.Location = new System.Drawing.Point(289, 448);
             this.listViewAntigua.Name = "listViewAntigua";
             this.listViewAntigua.Size = new System.Drawing.Size(701, 143);
@@ -490,47 +469,72 @@
             this.listViewAntigua.UseCompatibleStateImageBehavior = false;
             this.listViewAntigua.View = System.Windows.Forms.View.Details;
             // 
-            // columnHeader7
+            // ColumnaNombre
             // 
-            this.columnHeader7.Text = "Nombre";
-            this.columnHeader7.Width = 147;
+            this.ColumnaNombre.Text = "Nombre";
+            this.ColumnaNombre.Width = 147;
             // 
-            // columnHeader8
+            // columnaDNI
             // 
-            this.columnHeader8.Text = "Dirección";
-            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader8.Width = 177;
+            this.columnaDNI.Text = "DNI";
+            this.columnaDNI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnaDNI.Width = 93;
             // 
-            // columnHeader9
+            // columnNaci
             // 
-            this.columnHeader9.Text = "DNI";
-            this.columnHeader9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader9.Width = 93;
+            this.columnNaci.Text = "Fecha Nacimiento";
+            this.columnNaci.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnNaci.Width = 181;
             // 
-            // columnHeader10
+            // columnAdmi
             // 
-            this.columnHeader10.Text = "Teléfono";
-            this.columnHeader10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader10.Width = 82;
+            this.columnAdmi.Text = "Fecha Admisión";
+            this.columnAdmi.Width = 137;
             // 
-            // columnHeader11
+            // label16
             // 
-            this.columnHeader11.Text = "Nacimiento";
-            this.columnHeader11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader11.Width = 95;
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(295, 608);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(0, 13);
+            this.label16.TabIndex = 37;
             // 
-            // columnHeader12
+            // labelPersona
             // 
-            this.columnHeader12.Text = "Admisión";
-            this.columnHeader12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader12.Width = 102;
+            this.labelPersona.AutoSize = true;
+            this.labelPersona.Location = new System.Drawing.Point(28, 35);
+            this.labelPersona.Name = "labelPersona";
+            this.labelPersona.Size = new System.Drawing.Size(0, 13);
+            this.labelPersona.TabIndex = 38;
+            // 
+            // buttonActualizar
+            // 
+            this.buttonActualizar.Location = new System.Drawing.Point(662, 194);
+            this.buttonActualizar.Name = "buttonActualizar";
+            this.buttonActualizar.Size = new System.Drawing.Size(100, 40);
+            this.buttonActualizar.TabIndex = 39;
+            this.buttonActualizar.Text = "ACTUALIZAR";
+            this.buttonActualizar.UseVisualStyleBackColor = true;
+            this.buttonActualizar.Click += new System.EventHandler(this.buttonActualizar_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(131, 525);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(48, 13);
+            this.label17.TabIndex = 40;
+            this.label17.Text = "label17";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1002, 706);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.buttonActualizar);
+            this.Controls.Add(this.labelPersona);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.listViewAntigua);
             this.Controls.Add(this.label14);
@@ -569,7 +573,9 @@
             this.Controls.Add(this.textBoxDireccion);
             this.Controls.Add(this.textBoxNombre);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio Persona ListView";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -619,20 +625,19 @@
         private System.Windows.Forms.Button buttonObtenerAntigua;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ListView listViewJoven;
-        public System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
+        public System.Windows.Forms.ColumnHeader Nombre;
+        private System.Windows.Forms.ColumnHeader DNI;
+        private System.Windows.Forms.ColumnHeader Fecha_Nacimiento;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ListView listViewAntigua;
-        public System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.ColumnHeader columnHeader12;
+        public System.Windows.Forms.ColumnHeader ColumnaNombre;
+        private System.Windows.Forms.ColumnHeader columnaDNI;
+        private System.Windows.Forms.ColumnHeader columnNaci;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label labelPersona;
+        private System.Windows.Forms.Button buttonActualizar;
+        private System.Windows.Forms.ColumnHeader columnAdmi;
+        private System.Windows.Forms.Label label17;
     }
 }
 

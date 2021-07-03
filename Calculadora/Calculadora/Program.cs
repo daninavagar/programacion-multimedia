@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Primer_ventana
+namespace Calculadora
 {
     static class Program
     {
@@ -14,11 +14,11 @@ namespace Primer_ventana
         [STAThread]
         static void Main()
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
 
-            Console.WriteLine("Hola mi amigo");
+            
         }
     }
 }
